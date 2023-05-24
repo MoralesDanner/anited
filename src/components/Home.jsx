@@ -1,3 +1,5 @@
+import { Outlet, Link } from "react-router-dom" ;
+
 import {Swiper, SwiperSlide} from "swiper/react";
 import 'swiper/css';
 import 'swiper/css/effect-coverflow';
@@ -80,21 +82,21 @@ const Home = () => {
                     </div>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-3 text-center mb-16">
-                    <a className="justify-self-center" href="/servicios">
+                    <Link className="justify-self-center" to="/servicios">
                     <div className="backdrop-blur-sm bg-white/70  border-2 border-[#ffffff80] shadow-lg mx-5 flex flex-col w-80 rounded-2xl md:rounded-t-none md:w-60 lg:w-96 my-5 md:my-0 hover:shadow-xl hover:shadow-gray-900" data-aos="fade-down">
                         <h2 className="mt-5 text-primary">SOCIAL MEDIA</h2>
                         <img src={gif1} alt="" className="self-center p-10 h-auto" />
-                    </div></a>
-                    <a className="justify-self-center" href="/servicios">
+                    </div></Link>
+                    <Link className="justify-self-center" to="/servicios">
                     <div className="backdrop-blur-sm bg-white/70  border-2 border-[#ffffff80] shadow-lg mx-5 flex flex-col w-80 rounded-2xl md:rounded-t-none md:w-60 lg:w-96 my-5 md:my-0 hover:shadow-xl hover:shadow-gray-900" data-aos="fade-down">
                         <h2 className="mt-5 text-primary">LOGOS</h2>
                         <img src={gif2} alt="" className="self-center p-10 h-auto" />
-                    </div></a>
-                    <a className="justify-self-center" href="/servicios">
+                    </div></Link>
+                    <Link className="justify-self-center" to="/servicios">
                     <div className="backdrop-blur-sm bg-white/70  border-2 border-[#ffffff80] shadow-lg mx-5 flex flex-col w-80 rounded-2xl md:rounded-t-none md:w-60 lg:w-96 my-5 md:my-0 hover:shadow-xl hover:shadow-gray-900" data-aos="fade-down">
                         <h2 className="mt-5 text-primary">MOCKUP</h2>
                         <img src={gif3} alt="" className="self-center p-10 h-auto" />
-                    </div></a>
+                    </div></Link>
                 </div>
             </div>
             <div id="Programacion" className="my-[-18%]">
@@ -118,21 +120,21 @@ const Home = () => {
                     </div>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-3 place-content-center text-center mb-80">
-                    <a className="justify-self-center" href="/servicios">
+                    <Link className="justify-self-center" to="/servicios">
                     <div className="backdrop-blur-sm bg-white/70  border-2 border-[#ffffff80] shadow-lg mx-5 flex flex-col w-80 rounded-2xl  md:rounded-t-none md:w-60 lg:w-96 my-5 md:my-0 hover:shadow-xl hover:shadow-gray-900" data-aos="fade-down">
                         <h2 className="mt-5 text-primary">MANUAL WEB</h2>
                         <img src={gif2_1} alt="" className="self-center p-10 h-auto" />
-                    </div></a>
-                    <a className="justify-self-center" href="/servicios">
+                    </div></Link>
+                    <Link className="justify-self-center" to="/servicios">
                     <div className="backdrop-blur-sm bg-white/70  border-2 border-[#ffffff80] shadow-lg mx-5 flex flex-col w-80 rounded-2xl md:rounded-t-none md:w-60 lg:w-96 my-5 md:my-0 hover:shadow-xl hover:shadow-gray-900" data-aos="fade-down">
                         <h2 className="mt-5 text-primary">PAGINAS WEB</h2>
                         <img src={gif2_2} alt="" className="self-center p-10 h-auto" />
-                    </div></a>
-                    <a className="justify-self-center" href="/servicios">
+                    </div></Link>
+                    <Link className="justify-self-center" to="/servicios">
                     <div className="backdrop-blur-sm bg-white/70  border-2 border-[#ffffff80] shadow-lg mx-5 flex flex-col w-80 rounded-2xl md:rounded-t-none md:w-60 lg:w-96 my-5 md:my-0 hover:shadow-xl hover:shadow-gray-900" data-aos="fade-down">
                         <h2 className="mt-5 text-primary">APPS</h2>
                         <img src={gif2_3} alt="" className="self-center p-10 h-auto" />
-                    </div></a>
+                    </div></Link>
                 </div>
             </div>
             

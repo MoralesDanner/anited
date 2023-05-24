@@ -37,10 +37,10 @@ const Header =()=>{
                             <Link to="/servicios" className="text-[#ffffff] hover:text-xl hover:text-[#f5a02b] transition-all duration-200  ">Servicios</Link>
                         </DropdownToggle> 
                         <DropdownMenu className={`${dropdown?"block": "hidden"} bg-[#004c6a8e] rounded-xl backdrop-blur-sm `}>
-                            <DropdownItem className=""><a href="servicios#serviciosDisenio" className="text-[#ffffff] hover:text-lg  hover:text-[#f5a02b] transition-all duration-200">Diseño</a></DropdownItem><br />
-                            <DropdownItem className=""><a href="servicios#serviciosProgramacion" className="text-[#ffffff] hover:text-lg  hover:text-[#f5a02b] transition-all duration-200">Programación</a></DropdownItem><br />
+                            <DropdownItem className=""><Link to="servicios#serviciosDisenio" className="text-[#ffffff] hover:text-lg  hover:text-[#f5a02b] transition-all duration-200">Diseño</Link></DropdownItem><br />
+                            <DropdownItem className=""><Link to="servicios#serviciosProgramacion" className="text-[#ffffff] hover:text-lg  hover:text-[#f5a02b] transition-all duration-200">Programación</Link></DropdownItem><br />
                             {/* <DropdownItem className=""><LinkRoll to="serviciosProgramacion" smooth={true} offset={200} duration={500} className="text-[#ffffff] hover:text-lg  hover:text-[#f5a02b] transition-all duration-200">Programación</LinkRoll></DropdownItem><br /> */}
-                            <DropdownItem className=""><a href="servicios#serviciosPaquete" className="text-[#ffffff] hover:text-lg  hover:text-[#f5a02b] transition-all duration-200">Paquetes</a> </DropdownItem>
+                            <DropdownItem className=""><Link to="servicios#serviciosPaquete" className="text-[#ffffff] hover:text-lg  hover:text-[#f5a02b] transition-all duration-200">Paquetes</Link> </DropdownItem>
                         </DropdownMenu> 
                     </Dropdown> 
                     <Link to="/contactos" className="text-[#ffffff] hover:text-xl hover:text-[#f5a02b] transition-all duration-200  ">Contactanos</Link>
