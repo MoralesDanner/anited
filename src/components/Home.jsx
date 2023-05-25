@@ -139,7 +139,7 @@ const Home = () => {
             </div>
             
                 
-
+            <Outlet></Outlet>
         </div>
         
     )
