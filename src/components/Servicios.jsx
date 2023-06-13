@@ -1,5 +1,5 @@
-import sportada_disenio from "../assets/servicios/sportada_disenio.png";
-import sportada_programacion from "../assets/servicios/sportada_programacion.png";
+import sportada_disenio from "../assets/servicios/sportada_disenio.webp";
+import sportada_programacion from "../assets/servicios/sportada_programacion.webp";
 import {BsCheckCircleFill} from 'react-icons/bs';
 
 const Servicios = () => {

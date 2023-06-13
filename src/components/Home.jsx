@@ -7,8 +7,8 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import { EffectCoverflow, Autoplay, Pagination, Navigation } from 'swiper';
 
-import imagenInicioDisenio from "../assets/home/img_1.png";
-import imagenInicioProg from "../assets/home/img_2.png";
+import imagenInicioDisenio from "../assets/home/img_1.webp";
+import imagenInicioProg from "../assets/home/img_2.webp";
 
 import gif1 from "../assets/gif/gif_social_media_final.gif";
 import gif2 from "../assets/gif/gif_logo_final.gif";
@@ -18,9 +18,9 @@ import gif2_1 from "../assets/gif/gif_manual_web_final.gif";
 import gif2_2 from "../assets/gif/gif_pag_web_final.gif";
 import gif2_3 from "../assets/gif/gif_apps_final.gif";
 
-import caroucel1 from "../assets/home/caroucel_1.png";
-import caroucel2 from "../assets/home/caroucel_2.png";
-import caroucel3 from "../assets/home/caroucel_3.png";
+import caroucel1 from "../assets/home/caroucel_1.webp";
+import caroucel2 from "../assets/home/caroucel_2.webp";
+import caroucel3 from "../assets/home/caroucel_3.webp";
 
 
 // import gif2 from "../assets/gif"

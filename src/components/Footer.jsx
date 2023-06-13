@@ -34,7 +34,7 @@ const Footer =()=>{
                     </div>
                     <div className="flex flex-col w-56 mx-auto ">
                         <div className="">
-                            <a href="https://wa.me/593985081264" target="_blank" className="text-white hover:text-[#f5a02b] "><p><img src={icono_whatsapp} alt="" className="float-left" />0980267515</p></a>
+                            <a href="https://wa.me/593985081264" target="_blank" className="text-white hover:text-[#f5a02b] "><p><img src={icono_whatsapp} alt="" className="float-left" />0985081264</p></a>
                         </div>
                         <div className="">
                             <a href="mailto:anited1966@gmail.com" className="text-white hover:text-[#f5a02b] "><p><img src={icono_correo} alt="" className="float-left"/>anited1966@gmail.com</p></a>

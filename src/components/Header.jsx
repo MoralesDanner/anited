@@ -30,18 +30,18 @@ const Header =()=>{
         <div>
             <header className={`nav flex items-center justify-between xl:justify-start w-full h-[15vh] z-50  bg-primary font-Roboto ${fix?"navmod backdrop-blur-sm transition-all duration-500":" "}`}>
                 <nav className="hidden bg-[#ffffff00] xl:flex h-full w-full top-0 static flex-1 flex-row items-center justify-center gap-5 transition-all duration-500" >
-                    <Link to="/" className="text-[#ffffff] hover:text-xl hover:text-[#f5a02b] transition-all duration-200  ">Inicio</Link>
+                    <Link to="/" className="text-[#ffffff] hover:text-xl hover:text-[#f5a02b] transition-all duration-200 mr-4">Inicio</Link>
                     <Link to="/nosotros" className="text-[#ffffff] hover:text-xl hover:text-[#f5a02b] transition-all duration-200  ">Nosotros</Link>
                     <Dropdown isOpen={dropdown} toggle={AccionDropdown} onMouseEnter={()=>setDropdown(true)} onMouseLeave={()=>setDropdown(false)}>
                         <DropdownToggle>
                             <Link to="/servicios" className="text-[#ffffff] hover:text-xl hover:text-[#f5a02b] transition-all duration-200  ">Servicios</Link>
                         </DropdownToggle> 
-                        <DropdownMenu className={`${dropdown?"block": "hidden"} bg-[#004c6a8e] rounded-xl backdrop-blur-sm `}>
+                        {/* <DropdownMenu className={`${dropdown?"block": "hidden"} bg-[#004c6a8e] rounded-xl backdrop-blur-sm `}>
                             <DropdownItem className=""><Link to="servicios#serviciosDisenio" className="text-[#ffffff] hover:text-lg  hover:text-[#f5a02b] transition-all duration-200">Diseño</Link></DropdownItem><br />
                             <DropdownItem className=""><Link to="servicios#serviciosProgramacion" className="text-[#ffffff] hover:text-lg  hover:text-[#f5a02b] transition-all duration-200">Programación</Link></DropdownItem><br />
-                            {/* <DropdownItem className=""><LinkRoll to="serviciosProgramacion" smooth={true} offset={200} duration={500} className="text-[#ffffff] hover:text-lg  hover:text-[#f5a02b] transition-all duration-200">Programación</LinkRoll></DropdownItem><br /> */}
+                            <DropdownItem className=""><LinkRoll to="serviciosProgramacion" smooth={true} offset={200} duration={500} className="text-[#ffffff] hover:text-lg  hover:text-[#f5a02b] transition-all duration-200">Programación</LinkRoll></DropdownItem><br />
                             <DropdownItem className=""><Link to="servicios#serviciosPaquete" className="text-[#ffffff] hover:text-lg  hover:text-[#f5a02b] transition-all duration-200">Paquetes</Link> </DropdownItem>
-                        </DropdownMenu> 
+                        </DropdownMenu>  */}
                     </Dropdown> 
                     <Link to="/contactos" className="text-[#ffffff] hover:text-xl hover:text-[#f5a02b] transition-all duration-200  ">Contactanos</Link>
                 </nav>
