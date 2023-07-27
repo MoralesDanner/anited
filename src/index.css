@@ -129,7 +129,13 @@ button:focus-visible {
   border-bottom-left-radius: 1rem;
 }
 
-
 h2 {
   font-size: 2em;
+}
+
+#disenioimg{
+  background-image: url('assets/home/img_1.webp');
+}
+#programacionimg{
+  background-image: url('assets/home/img_2.webp');
 }

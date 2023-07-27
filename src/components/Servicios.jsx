@@ -24,11 +24,11 @@ const Servicios = () => {
                                     </tr>
                                     <tr>
                                     <td>Logotipo</td>
-                                    <td>$30</td>
+                                    <td>$70</td>
                                     </tr>
                                     <tr>
                                     <td>Manual de identidad Corporativa</td>
-                                    <td>$80</td>
+                                    <td>$150</td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -41,15 +41,15 @@ const Servicios = () => {
                                 <tbody>
                                     <tr>
                                     <td>1 Post</td>
-                                    <td>$3</td>
+                                    <td>$5</td>
                                     </tr>
                                     <tr>
                                     <td>1 Post Animado</td>
-                                    <td>$6</td>
+                                    <td>$10</td>
                                     </tr>
                                     <tr>
-                                    <td>1 Historia</td>
-                                    <td>$2</td>
+                                    <td>1 Reels img</td>
+                                    <td>$5</td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -66,7 +66,7 @@ const Servicios = () => {
                                     </tr>
                                     <tr>
                                     <td>Tarjetas de presentación</td>
-                                    <td>$</td>
+                                    <td>Desde $35</td>
                                     </tr>
                                     <tr>
                                     <td>Diseño de Flayers</td>
@@ -74,7 +74,7 @@ const Servicios = () => {
                                     </tr>
                                     <tr>
                                     <td>Mascota Corporativa</td>
-                                    <td>$20</td>
+                                    <td>$30</td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -87,14 +87,14 @@ const Servicios = () => {
                                 <tbody>
                                     <tr>
                                     <td>Marca Animada</td>
-                                    <td>$50</td>
+                                    <td>$90</td>
                                     </tr>
                                     <tr>
                                     <td>Gifs</td>
-                                    <td>$4</td>
+                                    <td>$5</td>
                                     </tr>
                                     <tr>
-                                    <td>Mascota Corporativa</td>
+                                    <td>Animar Mascota Corporativa</td>
                                     <td>$50</td>
                                     </tr>
                                 </tbody>
@@ -121,12 +121,12 @@ const Servicios = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 text-center mb-16 my-16 lg:mx-36 xl:mx-44">
                     <div className=" flex flex-col justify-self-center my-5 ">
                         <div className="py-[10%] backdrop-blur-sm bg-white/70  border-2 border-[#ffffff80] shadow-lg rounded-2xl w-80 lg:w-[35vw] h-80 lg:h-[35vw] bg-[url('./assets/servicios/simg_1.png')] bg-[length:100%_100%] transition-all duration-200 hover:shadow-xl hover:shadow-gray-900" data-aos="zoom-in">
-                            <h2 className="text-4xl  pb-8">LANDING PAGE</h2>
+                            <h2 className="text-4xl  pb-8">LANDING PAGE NO ADMINISTRABLE</h2>
                             <table className="table-auto m-auto text-left text-[18px]    lg:text-2xl border-separate border-spacing-x-14 border-spacing-y-3">
                                 <tbody>
                                     <tr>
                                     <td>Sección única</td>
-                                    <td>$130</td>
+                                    <td>$200</td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -134,13 +134,13 @@ const Servicios = () => {
                     </div>
                     <div className=" flex flex-col justify-self-center my-5">
                         <div className="py-[10%] backdrop-blur-sm bg-white/70  border-2 border-[#ffffff80] shadow-lg rounded-2xl w-80 lg:w-[35vw] h-80 lg:h-[35vw] bg-[url('./assets/servicios/simg_2.png')] bg-[length:100%_100%] transition-all duration-200 hover:shadow-xl hover:shadow-gray-900" data-aos="zoom-in">
-                            <h2 className="text-4xl pb-8">SITIO WEB BÁSICO</h2>
+                            <h2 className="text-4xl pb-8">SITIO WEB BÁSICO NO ADMINISTRABLE</h2>
                             <table className="table-auto m-auto text-left text-[18px]    lg:text-2xl border-separate border-spacing-x-14 border-spacing-y-3">
                                 <tbody>
                                     <tr>
                                     <td>- Hasta 4 secciones. <br />
                                         - Formulario de contacto.</td>
-                                    <td>$199</td>
+                                    <td>$300</td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -148,7 +148,7 @@ const Servicios = () => {
                     </div>
                     <div className=" flex flex-col justify-self-center my-5 ">
                         <div className="py-[10%] backdrop-blur-sm bg-white/70  border-2 border-[#ffffff80] shadow-lg rounded-2xl w-80 lg:w-[35vw] h-auto lg:h-[35vw] bg-[url('./assets/servicios/simg_1.png')] bg-[length:100%_100%] transition-all duration-200 hover:shadow-xl hover:shadow-gray-900" data-aos="zoom-in">
-                            <h2 className="text-4xl  pb-8">SITIO WEB PRO</h2>
+                            <h2 className="text-4xl  pb-8">SITIO WEB PRO NO ADMINISTRABLE</h2>
                             <table className="table-auto m-auto text-left text-[18px]    lg:text-2xl border-separate border-spacing-x-14 border-spacing-y-3">
                                 <tbody>
                                     <tr>
@@ -156,7 +156,7 @@ const Servicios = () => {
                                         - Formulario personalizado.<br /> 
                                         - Copia de seguridad del sitio web.
                                     </td>
-                                    <td>$279</td>
+                                    <td>$450</td>
                                     </tr>                                  
                                 </tbody>
                             </table>
@@ -164,7 +164,7 @@ const Servicios = () => {
                     </div>
                     <div className=" flex flex-col justify-self-center my-5">
                         <div className="py-[10%] backdrop-blur-sm bg-white/70  border-2 border-[#ffffff80] shadow-lg rounded-2xl w-80 lg:w-[35vw] h-auto lg:h-[35vw] bg-[url('./assets/servicios/simg_2.png')] bg-[length:100%_100%] transition-all duration-200 hover:shadow-xl hover:shadow-gray-900" data-aos="zoom-in">
-                            <h2 className="text-4xl pb-8">AUTO ADMINISTRABLE</h2>
+                            <h2 className="text-4xl pb-8">WEB SITE AUTO ADMINISTRABLE</h2>
                             <table className="table-auto m-auto text-left text-[18px]    lg:text-2xl border-separate border-spacing-x-14 border-spacing-y-3">
                                 <tbody>
                                     <tr>
@@ -175,7 +175,7 @@ const Servicios = () => {
                                         - Copia de seguridad del sitio web.<br />
                                         - Reportes de estadísticas.<br />
                                     </td>
-                                    <td>$619</td>
+                                    <td>$900</td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -183,7 +183,7 @@ const Servicios = () => {
                     </div>
                     <div className=" flex flex-col justify-self-center my-5 ">
                         <div className="py-[10%] backdrop-blur-sm bg-white/70  border-2 border-[#ffffff80] shadow-lg rounded-2xl w-80 lg:w-[35vw] h-auto lg:h-[35vw] bg-[url('./assets/servicios/simg_1.png')] bg-[length:100%_100%] transition-all duration-200 hover:shadow-xl hover:shadow-gray-900" data-aos="zoom-in">
-                            <h2 className="text-4xl  pb-8">TIENDA VIRTUAL</h2>
+                            <h2 className="text-4xl  pb-8">TIENDA VIRTUAL ADMINISTRABLE</h2>
                             <table className="table-auto m-auto text-left text-[18px] lg:text-2xl border-separate border-spacing-x-14 border-spacing-y-3">
                                 <tbody>
                                     <tr>
@@ -193,7 +193,7 @@ const Servicios = () => {
                                         - Copia de seguridad del sitio web.<br />
                                         - Reportes de estadísticas.<br />
                                     </td>
-                                    <td>$859</td>
+                                    <td>$1100</td>
                                     </tr>                       
                                 </tbody>
                             </table>
@@ -206,7 +206,7 @@ const Servicios = () => {
                                 <tbody>
                                     <tr>
                                     <td>Manual web</td>
-                                    <td>$99</td>
+                                    <td>$150</td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -226,15 +226,15 @@ const Servicios = () => {
                                 <tbody>
                                     <tr>
                                     <td>Naming + Logo + Manual</td>
-                                    <td>$130</td>
+                                    <td>$220</td>
                                     </tr>
                                     <tr>
                                     <td>Naming + Logo</td>
-                                    <td>$70</td>
+                                    <td>$110</td>
                                     </tr>
                                     <tr>
                                     <td>Logo + Manual</td>
-                                    <td>$90</td>
+                                    <td>$180</td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -247,27 +247,27 @@ const Servicios = () => {
                                 <tbody>
                                     <tr>
                                     <td>5 Post</td>
-                                    <td>$13</td>
-                                    </tr>
-                                    <tr>
-                                    <td>10 Post + 3 historias</td>
-                                    <td>$30</td>
-                                    </tr>
-                                    <tr>
-                                    <td>5 Historia</td>
-                                    <td>$8</td>
-                                    </tr>
-                                    <tr>
-                                    <td>10 Historias + 2 posts</td>
                                     <td>$20</td>
                                     </tr>
                                     <tr>
-                                    <td>30 Post + 4 Historia</td>
-                                    <td>$58</td>
+                                    <td>10 Post + 3 Reels img</td>
+                                    <td>$40</td>
                                     </tr>
                                     <tr>
-                                    <td>30 Historia + 4 post</td>
-                                    <td>$38</td>
+                                    <td>5 Reels img</td>
+                                    <td>$20</td>
+                                    </tr>
+                                    <tr>
+                                    <td>10 Reels img + 2 posts</td>
+                                    <td>$40</td>
+                                    </tr>
+                                    <tr>
+                                    <td>30 Post + 4 Reels img</td>
+                                    <td>$100</td>
+                                    </tr>
+                                    <tr>
+                                    <td>30 Reels img + 4 post</td>
+                                    <td>$95</td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -280,15 +280,15 @@ const Servicios = () => {
                                 <tbody>
                                     <tr>
                                     <td>5 Post animados</td>
-                                    <td>$28</td>
+                                    <td>$40</td>
                                     </tr>
                                     <tr>
                                     <td>10 Post animados</td>
-                                    <td>$55</td>
+                                    <td>$70</td>
                                     </tr>
                                     <tr>
                                     <td>5 Gifs</td>
-                                    <td>$18</td>
+                                    <td>$20</td>
                                     </tr>
                                 </tbody>
                             </table>

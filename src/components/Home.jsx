@@ -62,8 +62,18 @@ const Home = () => {
                 </div>
             </div>
             <div id="Disenio" className="place-self-center">
-                <div>
-                    <img src={imagenInicioDisenio} alt="" />
+                <div id='disenioimg' className="w-full  bg-fixed bg-no-repeat  bg-[length:auto_100%] xl:bg-[length:100%_100%]">
+                    {/* <img src={imagenInicioDisenio} alt="" /> */}
+                    <div className="py-40 md:py-60 pl-[20vw] grid grid-cols-1 xl:grid-cols-3  ">
+                        <div className="col-span-1 ">
+                            
+                        </div>
+                        <div className="col-span-2 text-[5vw] md:text-2xl backdrop-blur-sm bg-white/70  border-2 border-[#ffffff80] rounded-l-2xl  py-20 ml-14 pl-10" data-aos="fade-right">
+                            <p>Nuestra agencia de publicidad te permite acercarte más a 
+                            tus clientes innovando y avivando tu marca e imagen 
+                            corporativa para destacar tus diferentes servicios</p>
+                        </div>
+                    </div>
                 </div>
                 <div className="shadow-2xl shadow-black bg-[#ecf7f9] text-center">
                     <div className="w-full h-40 flex items-center justify-center">
@@ -81,27 +91,43 @@ const Home = () => {
                         </div> */}
                     </div>
                 </div>
-                <div className="grid grid-cols-1 md:grid-cols-3 text-center mb-16">
-                    <Link className="justify-self-center" to="/servicios">
-                    <div className="backdrop-blur-sm bg-white/70  border-2 border-[#ffffff80] shadow-lg mx-5 flex flex-col w-80 rounded-2xl md:rounded-t-none md:w-60 lg:w-96 my-5 md:my-0 hover:shadow-xl hover:shadow-gray-900" data-aos="fade-down">
-                        <h2 className="mt-5 text-primary">SOCIAL MEDIA</h2>
-                        <img src={gif1} alt="" className="self-center p-10 h-auto" />
-                    </div></Link>
-                    <Link className="justify-self-center" to="/servicios">
-                    <div className="backdrop-blur-sm bg-white/70  border-2 border-[#ffffff80] shadow-lg mx-5 flex flex-col w-80 rounded-2xl md:rounded-t-none md:w-60 lg:w-96 my-5 md:my-0 hover:shadow-xl hover:shadow-gray-900" data-aos="fade-down">
-                        <h2 className="mt-5 text-primary">LOGOS</h2>
-                        <img src={gif2} alt="" className="self-center p-10 h-auto" />
-                    </div></Link>
-                    <Link className="justify-self-center" to="/servicios">
-                    <div className="backdrop-blur-sm bg-white/70  border-2 border-[#ffffff80] shadow-lg mx-5 flex flex-col w-80 rounded-2xl md:rounded-t-none md:w-60 lg:w-96 my-5 md:my-0 hover:shadow-xl hover:shadow-gray-900" data-aos="fade-down">
-                        <h2 className="mt-5 text-primary">MOCKUP</h2>
-                        <img src={gif3} alt="" className="self-center p-10 h-auto" />
-                    </div></Link>
+                <div className="grid place-items-center items-start grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10 px-2 md:px-16 lg:px-32 xl:px-16 2xl:px-32 text-center mb-16 mt-10 xl:mt-0">
+                    <Link className="" to="/servicios">
+                        <div className="backdrop-blur-sm bg-white/70  border-2 border-[#ffffff80] shadow-lg flex flex-col w-80 rounded-2xl xl:rounded-t-none lg:w-96 hover:shadow-xl hover:shadow-gray-900" data-aos="fade-down">
+                            <h2 className="mt-5 text-primary">SOCIAL MEDIA</h2>
+                            <p className="mt-5 text-primary text-justify mx-10">Generamos publicidad adaptable a tu línea gráfica para diferentes redes sociales.</p>
+                            <img src={gif1} alt="" className="self-center p-10 h-auto" />
+                        </div>
+                    </Link>
+                    <Link className="" to="/servicios">
+                        <div className="backdrop-blur-sm bg-white/70  border-2 border-[#ffffff80] shadow-lg flex flex-col w-80 rounded-2xl xl:rounded-t-none lg:w-96 hover:shadow-xl hover:shadow-gray-900" data-aos="fade-down">
+                            <h2 className="mt-5 text-primary">LOGOS</h2>
+                            <p className="mt-5 text-primary text-justify mx-10">Hacemos que tu empresa se vea auténtica personalizando su identidad visual.</p>
+                            <img src={gif2} alt="" className="self-center p-10 h-auto" />
+                        </div>
+                    </Link>
+                    <Link className="" to="/servicios">
+                        <div className="backdrop-blur-sm bg-white/70  border-2 border-[#ffffff80] shadow-lg flex flex-col w-80 rounded-2xl xl:rounded-t-none lg:w-96 hover:shadow-xl hover:shadow-gray-900" data-aos="fade-down">
+                            <h2 className="mt-5 text-primary">MOCKUP</h2>
+                            <p className="mt-5 text-primary text-justify mx-10">Innovamos los empaques de tus diferentes productos y servicios.</p>
+                            <img src={gif3} alt="" className="self-center p-10 h-auto" />
+                        </div>
+                    </Link>
                 </div>
             </div>
             <div id="Programacion" className="my-[-18%]">
-                <div>
-                    <img src={imagenInicioProg} alt="" className=""/>
+                <div id='programacionimg' className="w-full  bg-fixed bg-no-repeat  bg-[length:auto_100%] xl:bg-[length:100%_100%]">
+                    {/* <img src={imagenInicioDisenio} alt="" /> */}
+                    <div className="py-40 md:py-60 md:pt-[30%]  pr-[20vw] grid grid-cols-1 xl:grid-cols-3  ">
+                        <div className="col-span-2 px-10 text-[5vw] md:text-2xl backdrop-blur-sm bg-white/70  border-2 border-[#ffffff80] rounded-r-2xl  py-20 mr-14 " data-aos="fade-right">
+                            <p>Nuestra agencia de publicidad te permite acercarte más a 
+                            tus clientes innovando y avivando tu marca e imagen 
+                            corporativa para destacar tus diferentes servicios</p>
+                        </div>
+                        <div className="col-span-1 ">
+                            
+                        </div>
+                    </div>
                 </div>
                 <div className="shadow-2xl shadow-black bg-[#ecf7f9] text-center z-10">
                     <div className="w-full h-40 flex items-center justify-center">
@@ -119,20 +145,23 @@ const Home = () => {
                         </div> */}
                     </div>
                 </div>
-                <div className="grid grid-cols-1 md:grid-cols-3 place-content-center text-center mb-80">
-                    <Link className="justify-self-center" to="/servicios">
-                    <div className="backdrop-blur-sm bg-white/70  border-2 border-[#ffffff80] shadow-lg mx-5 flex flex-col w-80 rounded-2xl  md:rounded-t-none md:w-60 lg:w-96 my-5 md:my-0 hover:shadow-xl hover:shadow-gray-900" data-aos="fade-down">
-                        <h2 className="mt-5 text-primary">MANUAL WEB</h2>
+                <div className="grid place-items-center items-start px-2 md:px-16 lg:px-32 xl:px-16 2xl:px-32 grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10 place-content-center text-center mb-80  mt-10 xl:mt-0">
+                    <Link className="" to="/servicios">
+                    <div className="backdrop-blur-sm bg-white/70  border-2 border-[#ffffff80] shadow-lg flex flex-col w-80 rounded-2xl  xl:rounded-t-none lg:w-96 hover:shadow-xl hover:shadow-gray-900" data-aos="fade-down">
+                        <h2 className="mt-5 text-primary">TIENDA VIRTUAL</h2>
+                        <p className="mt-5 text-primary text-justify mx-10">Ofrece tus productos las 24 horas del día, mostrando los mejores atributos de cada uno de ellos.</p><br />
                         <img src={gif2_1} alt="" className="self-center p-10 h-auto" />
                     </div></Link>
-                    <Link className="justify-self-center" to="/servicios">
-                    <div className="backdrop-blur-sm bg-white/70  border-2 border-[#ffffff80] shadow-lg mx-5 flex flex-col w-80 rounded-2xl md:rounded-t-none md:w-60 lg:w-96 my-5 md:my-0 hover:shadow-xl hover:shadow-gray-900" data-aos="fade-down">
+                    <Link className="" to="/servicios">
+                    <div className="backdrop-blur-sm bg-white/70  border-2 border-[#ffffff80] shadow-lg flex flex-col w-80 rounded-2xl xl:rounded-t-none lg:w-96 hover:shadow-xl hover:shadow-gray-900" data-aos="fade-down">
                         <h2 className="mt-5 text-primary">PAGINAS WEB</h2>
+                        <p className="mt-5 text-primary text-justify mx-10">Genera confianza en tus usuarios al poner a su disposición tu historia, ubicación y los servicios que ofreces por medio de un sitio web.</p>
                         <img src={gif2_2} alt="" className="self-center p-10 h-auto" />
                     </div></Link>
-                    <Link className="justify-self-center" to="/servicios">
-                    <div className="backdrop-blur-sm bg-white/70  border-2 border-[#ffffff80] shadow-lg mx-5 flex flex-col w-80 rounded-2xl md:rounded-t-none md:w-60 lg:w-96 my-5 md:my-0 hover:shadow-xl hover:shadow-gray-900" data-aos="fade-down">
+                    <Link className="" to="/servicios">
+                    <div className="backdrop-blur-sm bg-white/70  border-2 border-[#ffffff80] shadow-lg flex flex-col w-80 rounded-2xl xl:rounded-t-none lg:w-96 hover:shadow-xl hover:shadow-gray-900" data-aos="fade-down">
                         <h2 className="mt-5 text-primary">APPS</h2>
+                        <p className="mt-5 text-primary text-justify mx-10">Al crear aplicaciones móviles ofrecerás servicios y experiencias de calidad a tus usuarios.</p><br />
                         <img src={gif2_3} alt="" className="self-center p-10 h-auto" />
                     </div></Link>
                 </div>
