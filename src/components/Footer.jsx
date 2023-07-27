@@ -49,13 +49,13 @@ const Footer =()=>{
                     <div className="flex justify-center">
                         <p><img src={icono_ubicacion} alt="" className="float-left "/>Quito - Villaflora <br /> 
                         Oe2-129</p>
-                    </div >           
+                    </div>           
                 </div>
             </div>
             <div>
-                <div className="flex justify-end">
-                    <p><img src={icono_anited_blanco} alt="" className="float-left w-4 h-auto"/>Anited, 2023 - todos los derechos reservados </p>
-                </div >
+                <div className="flex justify-end mx-10">
+                    <p>Anited, 2023 - todos los derechos reservados </p>
+                </div>
             </div>
             
             

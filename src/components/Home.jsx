@@ -40,7 +40,7 @@ const Home = () => {
                     autoplay={{
                         delay: 2500,
                         disableOnInteraction: false,
-                      }}
+                    }}
                     coverflowEffect={{
                     rotate: 100,
                     stretch: 60,

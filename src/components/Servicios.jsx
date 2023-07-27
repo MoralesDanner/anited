@@ -118,7 +118,6 @@ const Servicios = () => {
                         </p>
                     </div>
                 </div>
-                
                 <div className="grid grid-cols-1 md:grid-cols-2 text-center mb-16 my-16 lg:mx-36 xl:mx-44">
                     <div className=" flex flex-col justify-self-center my-5 ">
                         <div className="py-[10%] backdrop-blur-sm bg-white/70  border-2 border-[#ffffff80] shadow-lg rounded-2xl w-80 lg:w-[35vw] h-80 lg:h-[35vw] bg-[url('./assets/servicios/simg_1.png')] bg-[length:100%_100%] transition-all duration-200 hover:shadow-xl hover:shadow-gray-900" data-aos="zoom-in">
@@ -127,7 +126,7 @@ const Servicios = () => {
                                 <tbody>
                                     <tr>
                                     <td>Sección única</td>
-                                    <td>$79</td>
+                                    <td>$130</td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -141,7 +140,7 @@ const Servicios = () => {
                                     <tr>
                                     <td>- Hasta 4 secciones. <br />
                                         - Formulario de contacto.</td>
-                                    <td>$119</td>
+                                    <td>$199</td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -157,7 +156,7 @@ const Servicios = () => {
                                         - Formulario personalizado.<br /> 
                                         - Copia de seguridad del sitio web.
                                     </td>
-                                    <td>$189</td>
+                                    <td>$279</td>
                                     </tr>                                  
                                 </tbody>
                             </table>
@@ -176,7 +175,7 @@ const Servicios = () => {
                                         - Copia de seguridad del sitio web.<br />
                                         - Reportes de estadísticas.<br />
                                     </td>
-                                    <td>$419</td>
+                                    <td>$619</td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -194,9 +193,8 @@ const Servicios = () => {
                                         - Copia de seguridad del sitio web.<br />
                                         - Reportes de estadísticas.<br />
                                     </td>
-                                    <td>$559</td>
-                                    </tr>
-                                   
+                                    <td>$859</td>
+                                    </tr>                       
                                 </tbody>
                             </table>
                         </div>
@@ -208,7 +206,7 @@ const Servicios = () => {
                                 <tbody>
                                     <tr>
                                     <td>Manual web</td>
-                                    <td>$80</td>
+                                    <td>$99</td>
                                     </tr>
                                 </tbody>
                             </table>
