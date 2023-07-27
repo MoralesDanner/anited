@@ -127,7 +127,7 @@ const Servicios = () => {
                                 <tbody>
                                     <tr>
                                     <td>Sección única</td>
-                                    <td>$59</td>
+                                    <td>$79</td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -141,9 +141,8 @@ const Servicios = () => {
                                     <tr>
                                     <td>- Hasta 4 secciones. <br />
                                         - Formulario de contacto.</td>
-                                    <td>$89</td>
+                                    <td>$119</td>
                                     </tr>
-                                
                                 </tbody>
                             </table>
                         </div>
@@ -158,9 +157,8 @@ const Servicios = () => {
                                         - Formulario personalizado.<br /> 
                                         - Copia de seguridad del sitio web.
                                     </td>
-                                    <td>$159</td>
-                                    </tr>
-                                   
+                                    <td>$189</td>
+                                    </tr>                                  
                                 </tbody>
                             </table>
                         </div>
@@ -178,7 +176,7 @@ const Servicios = () => {
                                         - Copia de seguridad del sitio web.<br />
                                         - Reportes de estadísticas.<br />
                                     </td>
-                                    <td>$319</td>
+                                    <td>$419</td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -196,7 +194,7 @@ const Servicios = () => {
                                         - Copia de seguridad del sitio web.<br />
                                         - Reportes de estadísticas.<br />
                                     </td>
-                                    <td>$459</td>
+                                    <td>$559</td>
                                     </tr>
                                    
                                 </tbody>
