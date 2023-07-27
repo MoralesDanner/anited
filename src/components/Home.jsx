@@ -120,9 +120,9 @@ const Home = () => {
                     {/* <img src={imagenInicioDisenio} alt="" /> */}
                     <div className="py-40 md:py-60 md:pt-[30%]  pr-[20vw] grid grid-cols-1 xl:grid-cols-3  ">
                         <div className="col-span-2 px-10 text-[5vw] md:text-2xl backdrop-blur-sm bg-white/70  border-2 border-[#ffffff80] rounded-r-2xl  py-20 mr-14 " data-aos="fade-right">
-                            <p>Nuestra agencia de publicidad te permite acercarte más a 
-                            tus clientes innovando y avivando tu marca e imagen 
-                            corporativa para destacar tus diferentes servicios</p>
+                            <p>Adéntrate con nosotros a un mundo lleno de posibilidades
+                            donde tus clientes estarán al día con novedades y servicios
+                            de tu empresa con tan solo un click</p>
                         </div>
                         <div className="col-span-1 ">
                             
@@ -166,8 +166,6 @@ const Home = () => {
                     </div></Link>
                 </div>
             </div>
-            
-                
             <Outlet></Outlet>
         </div>
         
