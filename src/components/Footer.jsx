@@ -47,8 +47,8 @@ const Footer =()=>{
                         <h2 className="text-2xl">Ubicanos</h2>
                     </div>
                     <div className="flex justify-center">
-                        <p><img src={icono_ubicacion} alt="" className="float-left "/>Quito - Villaflora <br /> 
-                        Oe2-129</p>
+                        <p><img src={icono_ubicacion} alt="" className="float-left "/>Quito - Ecuador <br /> 
+                        </p>
                     </div>           
                 </div>
             </div>
@@ -57,8 +57,6 @@ const Footer =()=>{
                     <p>Anited, 2023 - todos los derechos reservados </p>
                 </div>
             </div>
-            
-            
         </footer>
     )
 }
