@@ -30,7 +30,7 @@ const Footer =()=>{
 
                 <div className="flex flex-col justify-center text-center mb-20 md:mb-0">
                     <div className="my-6">
-                        <h2 className="text-2xl">Contactanos</h2>
+                        <h2 className="text-2xl">Contáctanos</h2>
                     </div>
                     <div className="flex flex-col w-56 mx-auto ">
                         <div className="my-1">
@@ -44,7 +44,7 @@ const Footer =()=>{
 
                 <div className="flex flex-col justify-center text-center mb-20 md:mb-0">
                     <div className="my-6">
-                        <h2 className="text-2xl">Ubicanos</h2>
+                        <h2 className="text-2xl">Ubícanos</h2>
                     </div>
                     <div className="flex justify-center">
                         <p><img src={icono_ubicacion} alt="" className="float-left mr-4"/> Quito - Ecuador <br /> 
