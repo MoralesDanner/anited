@@ -33,10 +33,10 @@ const Contactos = () => {
                         </div> */}
                     </div>
                 </div>
-                <div className="grid grid-cols-1 md:grid-cols-3 text-center mb-16">
+                <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10 px-2 md:px-16 lg:px-40  xl:px-36  2xl:px-52  text-center mb-16">
                     <div className=" justify-self-center">
                         <a href="https://wa.me/593985081264" target="_blank" className="hover:text-[#f5a02b] ">
-                            <div className="backdrop-blur-sm bg-white/70  border-2 border-[#ffffff80] shadow-lg flex flex-col mx-5 w-80 rounded-2xl md:rounded-t-none md:w-60 lg:w-96 my-5 md:my-0  hover:shadow-xl hover:shadow-gray-900" data-aos="fade-down">
+                            <div className="backdrop-blur-sm bg-white/70  border-2 border-[#ffffff80] shadow-lg flex flex-col mx-5 w-80 rounded-2xl xl:rounded-t-none md:my-0  hover:shadow-xl hover:shadow-gray-900" data-aos="fade-down">
                                 <h2 className="text-3xl py-5 text-primary ">WHATSAPP</h2>
                                 <div className="w-full h-9 bg-[#a9c7ca] shadow-xl shadow-[#a9c7ca] text-white flex items-center justify-center">
                                     <p>0985081264</p>
@@ -47,7 +47,7 @@ const Contactos = () => {
                     </div>
                     <div className="justify-self-center">
                         <a href="https://www.facebook.com/people/Anited/100089420817644/?mibextid=ZbWKwL" target="_blank" className="hover:text-[#f5a02b] ">
-                            <div className="backdrop-blur-sm bg-white/70  border-2 border-[#ffffff80] shadow-lg flex flex-col mx-5 w-80 rounded-2xl md:rounded-t-none md:w-60 lg:w-96 my-5 md:my-0 justify-self-center hover:shadow-xl hover:shadow-gray-900" data-aos="fade-down">
+                            <div className="backdrop-blur-sm bg-white/70  border-2 border-[#ffffff80] shadow-lg flex flex-col mx-5 w-80 rounded-2xl xl:rounded-t-none md:my-0 justify-self-center hover:shadow-xl hover:shadow-gray-900" data-aos="fade-down">
                                 <h2 className="text-3xl  py-5 text-primary  ">MESSENGER</h2>
                                 <div className="w-full h-9 bg-[#a9c7ca] shadow-xl shadow-[#a9c7ca] text-white flex items-center justify-center">
                                     <p>@anited_oficial</p>
@@ -58,7 +58,7 @@ const Contactos = () => {
                     </div>
                     <div className="justify-self-center ">
                         <a href="https://www.instagram.com/anited_oficial/" target="_blank" className="hover:text-[#f5a02b] ">
-                            <div className="backdrop-blur-sm bg-white/70  border-2 border-[#ffffff80] shadow-lg flex flex-col mx-5 w-80 rounded-2xl md:rounded-t-none md:w-60 lg:w-96 my-5 md:my-0 justify-self-center hover:shadow-xl hover:shadow-gray-900" data-aos="fade-down">
+                            <div className="backdrop-blur-sm bg-white/70  border-2 border-[#ffffff80] shadow-lg flex flex-col mx-5 w-80 rounded-2xl xl:rounded-t-none md:my-0 justify-self-center hover:shadow-xl hover:shadow-gray-900" data-aos="fade-down">
                                 <h2 className="text-3xl  py-5 text-primary  ">INSTAGRAM</h2>
                                 <div className="w-full h-9 bg-[#a9c7ca] shadow-xl shadow-[#a9c7ca] text-white flex items-center justify-center">
                                     <p>@anited_oficial</p>

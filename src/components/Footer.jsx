@@ -33,10 +33,10 @@ const Footer =()=>{
                         <h2 className="text-2xl">Contactanos</h2>
                     </div>
                     <div className="flex flex-col w-56 mx-auto ">
-                        <div className="">
+                        <div className="my-1">
                             <a href="https://wa.me/593985081264" target="_blank" className="text-white hover:text-[#f5a02b] "><p><img src={icono_whatsapp} alt="" className="float-left" />0985081264</p></a>
                         </div>
-                        <div className="">
+                        <div className="my-1">
                             <a href="mailto:anited1966@gmail.com" className="text-white hover:text-[#f5a02b] "><p><img src={icono_correo} alt="" className="float-left"/>anited1966@gmail.com</p></a>
                         </div>
                     </div>
@@ -47,7 +47,7 @@ const Footer =()=>{
                         <h2 className="text-2xl">Ubicanos</h2>
                     </div>
                     <div className="flex justify-center">
-                        <p><img src={icono_ubicacion} alt="" className="float-left "/>Quito - Ecuador <br /> 
+                        <p><img src={icono_ubicacion} alt="" className="float-left mr-4"/> Quito - Ecuador <br /> 
                         </p>
                     </div>           
                 </div>

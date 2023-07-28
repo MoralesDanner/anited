@@ -14,7 +14,7 @@ const Servicios = () => {
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-2 text-center mb-16 my-16 lg:mx-36 xl:mx-44">
                     <div className=" flex flex-col justify-self-center my-5 py-5">
-                        <div className="py-[10%] backdrop-blur-sm bg-white/70  border-2 border-[#ffffff80] shadow-lg rounded-2xl w-80 lg:w-[35vw] h-80 lg:h-[35vw] bg-[url('./assets/servicios/simg_1.png')] bg-[length:100%_100%] hover:w-[36vw] transition-all duration-500 hover:shadow-xl hover:shadow-gray-900" data-aos="zoom-in">
+                        <div className="py-[10%] backdrop-blur-sm bg-white/70  border-2 border-[#ffffff80] shadow-lg rounded-2xl w-80 lg:w-[35vw] h:auto 2xl:h-[35vw] bg-[url('./assets/servicios/simg_1.png')] bg-[length:100%_100%] hover:w-[36vw] transition-all duration-500 hover:shadow-xl hover:shadow-gray-900" data-aos="zoom-in">
                             <h2 className="text-4xl  pb-8">LOGOS</h2>
                             <table className="table-auto m-auto text-left text-[18px] lg:text-2xl border-separate border-spacing-x-14 border-spacing-y-3">
                                 <tbody>
@@ -35,7 +35,7 @@ const Servicios = () => {
                         </div>
                     </div>
                     <div className=" flex flex-col justify-self-center my-5 py-5">
-                        <div className="py-[10%] backdrop-blur-sm bg-white/70  border-2 border-[#ffffff80] shadow-lg rounded-2xl w-80 lg:w-[35vw] h-80 lg:h-[35vw] bg-[url('./assets/servicios/simg_2.png')] bg-[length:100%_100%]  hover:w-[36vw] transition-all duration-200 hover:shadow-xl hover:shadow-gray-900" data-aos="zoom-in">
+                        <div className="py-[10%] backdrop-blur-sm bg-white/70  border-2 border-[#ffffff80] shadow-lg rounded-2xl w-80 lg:w-[35vw] h-full 2xl:h-[35vw] bg-[url('./assets/servicios/simg_2.png')] bg-[length:100%_100%]  hover:w-[36vw] transition-all duration-200 hover:shadow-xl hover:shadow-gray-900" data-aos="zoom-in">
                             <h2 className="text-4xl pb-8">SOCIAL MEDIA</h2>
                             <table className="table-auto m-auto text-left text-[18px]    lg:text-2xl border-separate border-spacing-x-14 border-spacing-y-3">
                                 <tbody>
@@ -55,10 +55,10 @@ const Servicios = () => {
                             </table>
                         </div>
                     </div>
-                    <div className=" flex flex-col justify-self-center my-5 ">
-                        <div className="py-[10%] backdrop-blur-sm bg-white/70  border-2 border-[#ffffff80] shadow-lg rounded-2xl w-80 h-auto lg:w-[35vw] h-80 lg:h-[35vw] bg-[url('./assets/servicios/simg_1.png')] bg-[length:100%_100%]  hover:w-[36vw] transition-all duration-200 hover:shadow-xl hover:shadow-gray-900" data-aos="zoom-in">
+                    <div className="flex flex-col justify-self-center my-5 ">
+                        <div className="py-[10%] backdrop-blur-sm bg-white/70  border-2 border-[#ffffff80] shadow-lg rounded-2xl w-80 lg:w-[35vw] h-auto 2xl:h-[35vw] bg-[url('./assets/servicios/simg_1.png')] bg-[length:100%_100%] transition-all duration-200 hover:shadow-xl hover:shadow-gray-900" data-aos="zoom-in">
                             <h2 className="text-4xl  pb-8">DISEÑOS</h2>
-                            <table className="table-auto m-auto text-left text-[18px]    lg:text-2xl border-separate border-spacing-x-14 border-spacing-y-3">
+                            <table className="table-auto m-auto text-left text-[18px] lg:text-2xl border-separate border-spacing-x-14 border-spacing-y-3">
                                 <tbody>
                                     <tr>
                                     <td>Diseño de empaques</td>
@@ -81,9 +81,9 @@ const Servicios = () => {
                         </div>
                     </div>
                     <div className=" flex flex-col justify-self-center my-5 ">
-                        <div className="py-[10%] backdrop-blur-sm bg-white/70  border-2 border-[#ffffff80] shadow-lg rounded-2xl w-80 lg:w-[35vw] h-80 lg:h-[35vw] bg-[url('./assets/servicios/simg_2.png')] bg-[length:100%_100%]  hover:w-[36vw] transition-all duration-200 hover:shadow-xl hover:shadow-gray-900" data-aos="zoom-in">
+                        <div className="py-[10%] backdrop-blur-sm bg-white/70  border-2 border-[#ffffff80] shadow-lg rounded-2xl w-80 lg:w-[35vw] h-full 2xl:h-[35vw] bg-[url('./assets/servicios/simg_2.png')] bg-[length:100%_100%]  hover:w-[36vw] transition-all duration-200 hover:shadow-xl hover:shadow-gray-900" data-aos="zoom-in">
                             <h2 className="text-4xl pb-8">ANIMACIONES</h2>
-                            <table className="table-auto m-auto text-left text-[18px]    lg:text-2xl border-separate border-spacing-x-14 border-spacing-y-3">
+                            <table className="table-auto m-auto text-left text-[18px] lg:text-2xl border-separate border-spacing-x-14 border-spacing-y-3">
                                 <tbody>
                                     <tr>
                                     <td>Marca Animada</td>
@@ -120,8 +120,8 @@ const Servicios = () => {
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-2 text-center mb-16 my-16 lg:mx-36 xl:mx-44">
                     <div className=" flex flex-col justify-self-center my-5 ">
-                        <div className="py-[10%] backdrop-blur-sm bg-white/70  border-2 border-[#ffffff80] shadow-lg rounded-2xl w-80 lg:w-[35vw] h-80 lg:h-[35vw] bg-[url('./assets/servicios/simg_1.png')] bg-[length:100%_100%] transition-all duration-200 hover:shadow-xl hover:shadow-gray-900" data-aos="zoom-in">
-                            <h2 className="text-4xl  pb-8">LANDING PAGE NO ADMINISTRABLE</h2>
+                        <div className="py-[10%] backdrop-blur-sm bg-white/70  border-2 border-[#ffffff80] shadow-lg rounded-2xl w-80 lg:w-[35vw] h-full 2xl:h-[35vw] bg-[url('./assets/servicios/simg_1.png')] bg-[length:100%_100%] transition-all duration-200 hover:shadow-xl hover:shadow-gray-900" data-aos="zoom-in">
+                            <h2 className="text-4xl  pb-8">LANDING PAGE<br />NO ADMINISTRABLE</h2>
                             <table className="table-auto m-auto text-left text-[18px]    lg:text-2xl border-separate border-spacing-x-14 border-spacing-y-3">
                                 <tbody>
                                     <tr>
@@ -133,8 +133,8 @@ const Servicios = () => {
                         </div>
                     </div>
                     <div className=" flex flex-col justify-self-center my-5">
-                        <div className="py-[10%] backdrop-blur-sm bg-white/70  border-2 border-[#ffffff80] shadow-lg rounded-2xl w-80 lg:w-[35vw] h-80 lg:h-[35vw] bg-[url('./assets/servicios/simg_2.png')] bg-[length:100%_100%] transition-all duration-200 hover:shadow-xl hover:shadow-gray-900" data-aos="zoom-in">
-                            <h2 className="text-4xl pb-8">SITIO WEB BÁSICO NO ADMINISTRABLE</h2>
+                        <div className="py-[10%] backdrop-blur-sm bg-white/70  border-2 border-[#ffffff80] shadow-lg rounded-2xl w-80 lg:w-[35vw] h-auto 2xl:h-[35vw] bg-[url('./assets/servicios/simg_2.png')] bg-[length:100%_100%] transition-all duration-200 hover:shadow-xl hover:shadow-gray-900" data-aos="zoom-in">
+                            <h2 className="text-4xl pb-8">SITIO WEB BÁSICO<br />NO ADMINISTRABLE</h2>
                             <table className="table-auto m-auto text-left text-[18px]    lg:text-2xl border-separate border-spacing-x-14 border-spacing-y-3">
                                 <tbody>
                                     <tr>
@@ -147,8 +147,8 @@ const Servicios = () => {
                         </div>
                     </div>
                     <div className=" flex flex-col justify-self-center my-5 ">
-                        <div className="py-[10%] backdrop-blur-sm bg-white/70  border-2 border-[#ffffff80] shadow-lg rounded-2xl w-80 lg:w-[35vw] h-auto lg:h-[35vw] bg-[url('./assets/servicios/simg_1.png')] bg-[length:100%_100%] transition-all duration-200 hover:shadow-xl hover:shadow-gray-900" data-aos="zoom-in">
-                            <h2 className="text-4xl  pb-8">SITIO WEB PRO NO ADMINISTRABLE</h2>
+                        <div className="py-[10%] backdrop-blur-sm bg-white/70  border-2 border-[#ffffff80] shadow-lg rounded-2xl w-80 lg:w-[35vw] h-full 2xl:h-[35vw] bg-[url('./assets/servicios/simg_1.png')] bg-[length:100%_100%] transition-all duration-200 hover:shadow-xl hover:shadow-gray-900" data-aos="zoom-in">
+                            <h2 className="text-4xl  pb-8">SITIO WEB PRO<br />NO ADMINISTRABLE</h2>
                             <table className="table-auto m-auto text-left text-[18px]    lg:text-2xl border-separate border-spacing-x-14 border-spacing-y-3">
                                 <tbody>
                                     <tr>
@@ -163,8 +163,8 @@ const Servicios = () => {
                         </div>
                     </div>
                     <div className=" flex flex-col justify-self-center my-5">
-                        <div className="py-[10%] backdrop-blur-sm bg-white/70  border-2 border-[#ffffff80] shadow-lg rounded-2xl w-80 lg:w-[35vw] h-auto lg:h-[35vw] bg-[url('./assets/servicios/simg_2.png')] bg-[length:100%_100%] transition-all duration-200 hover:shadow-xl hover:shadow-gray-900" data-aos="zoom-in">
-                            <h2 className="text-4xl pb-8">WEB SITE AUTO ADMINISTRABLE</h2>
+                        <div className="py-[10%] backdrop-blur-sm bg-white/70  border-2 border-[#ffffff80] shadow-lg rounded-2xl w-80 lg:w-[35vw] h-auto 2xl:h-[35vw] bg-[url('./assets/servicios/simg_2.png')] bg-[length:100%_100%] transition-all duration-200 hover:shadow-xl hover:shadow-gray-900" data-aos="zoom-in">
+                            <h2 className="text-4xl pb-8">WEB SITE <br />AUTO ADMINISTRABLE</h2>
                             <table className="table-auto m-auto text-left text-[18px]    lg:text-2xl border-separate border-spacing-x-14 border-spacing-y-3">
                                 <tbody>
                                     <tr>
@@ -182,8 +182,8 @@ const Servicios = () => {
                         </div>
                     </div>
                     <div className=" flex flex-col justify-self-center my-5 ">
-                        <div className="py-[10%] backdrop-blur-sm bg-white/70  border-2 border-[#ffffff80] shadow-lg rounded-2xl w-80 lg:w-[35vw] h-auto lg:h-[35vw] bg-[url('./assets/servicios/simg_1.png')] bg-[length:100%_100%] transition-all duration-200 hover:shadow-xl hover:shadow-gray-900" data-aos="zoom-in">
-                            <h2 className="text-4xl  pb-8">TIENDA VIRTUAL ADMINISTRABLE</h2>
+                        <div className="py-[10%] backdrop-blur-sm bg-white/70  border-2 border-[#ffffff80] shadow-lg rounded-2xl w-80 lg:w-[35vw] h-auto 2xl:h-[35vw] bg-[url('./assets/servicios/simg_1.png')] bg-[length:100%_100%] transition-all duration-200 hover:shadow-xl hover:shadow-gray-900" data-aos="zoom-in">
+                            <h2 className="text-4xl  pb-8">TIENDA VIRTUAL<br />ADMINISTRABLE</h2>
                             <table className="table-auto m-auto text-left text-[18px] lg:text-2xl border-separate border-spacing-x-14 border-spacing-y-3">
                                 <tbody>
                                     <tr>
@@ -200,7 +200,7 @@ const Servicios = () => {
                         </div>
                     </div>
                     <div className=" flex flex-col justify-self-center my-5">
-                        <div className="py-[10%] backdrop-blur-sm bg-white/70  border-2 border-[#ffffff80] shadow-lg rounded-2xl w-80 lg:w-[35vw] h-80 lg:h-[35vw] bg-[url('./assets/servicios/simg_2.png')] bg-[length:100%_100%] transition-all duration-200 hover:shadow-xl hover:shadow-gray-900" data-aos="zoom-in">
+                        <div className="py-[10%] backdrop-blur-sm bg-white/70  border-2 border-[#ffffff80] shadow-lg rounded-2xl w-80 lg:w-[35vw] h-full 2xl:h-[35vw] bg-[url('./assets/servicios/simg_2.png')] bg-[length:100%_100%] transition-all duration-200 hover:shadow-xl hover:shadow-gray-900" data-aos="zoom-in">
                             <h2 className="text-4xl pb-8">MANUAL WEB</h2>
                             <table className="table-auto m-auto text-left text-[18px]    lg:text-2xl border-separate border-spacing-x-14 border-spacing-y-3">
                                 <tbody>
@@ -220,7 +220,7 @@ const Servicios = () => {
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-2 text-center mb-16 my-16 lg:mx-36 xl:mx-44">
                     <div className=" flex flex-col justify-self-center my-5 py-5">
-                        <div className="py-[10%] backdrop-blur-sm bg-white/70  border-2 border-[#ffffff80] shadow-lg rounded-2xl w-80 lg:w-[35vw] h-80 lg:h-[35vw] bg-[url('./assets/servicios/simg_1.png')] bg-[length:100%_100%] transition-all duration-200 hover:shadow-xl hover:shadow-gray-900" data-aos="zoom-in">
+                        <div className="py-[10%] backdrop-blur-sm bg-white/70  border-2 border-[#ffffff80] shadow-lg rounded-2xl w-80 lg:w-[35vw] h-full 2xl:h-[35vw] bg-[url('./assets/servicios/simg_1.png')] bg-[length:100%_100%] transition-all duration-200 hover:shadow-xl hover:shadow-gray-900" data-aos="zoom-in">
                             <h2 className="text-4xl  pb-8">IDENTIDAD CORPORATIVA</h2>
                             <table className="table-auto m-auto text-left text-[18px] lg:text-2xl border-separate border-spacing-x-14 border-spacing-y-3">
                                 <tbody>
@@ -241,7 +241,7 @@ const Servicios = () => {
                         </div>
                     </div>
                     <div className=" flex flex-col justify-self-center my-5 py-5">
-                        <div className="py-[10%] backdrop-blur-sm bg-white/70  border-2 border-[#ffffff80] shadow-lg rounded-2xl w-80 h-auto lg:w-[35vw] h-80 lg:h-[35vw] bg-[url('./assets/servicios/simg_2.png')] bg-[length:100%_100%] transition-all duration-200 hover:shadow-xl hover:shadow-gray-900" data-aos="zoom-in">
+                        <div className="py-[10%] backdrop-blur-sm bg-white/70  border-2 border-[#ffffff80] shadow-lg rounded-2xl w-80 h-auto lg:w-[35vw] 2xl:h-[35vw] bg-[url('./assets/servicios/simg_2.png')] bg-[length:100%_100%] transition-all duration-200 hover:shadow-xl hover:shadow-gray-900" data-aos="zoom-in">
                             <h2 className="text-4xl pb-8">SOCIAL MEDIA</h2>
                             <table className="table-auto m-auto text-left text-[18px]    lg:text-2xl border-separate border-spacing-x-14 border-spacing-y-3">
                                 <tbody>
@@ -274,7 +274,7 @@ const Servicios = () => {
                         </div>
                     </div>
                     <div className=" flex flex-col justify-self-center my-5 ">
-                        <div className="py-[10%] backdrop-blur-sm bg-white/70  border-2 border-[#ffffff80] shadow-lg rounded-2xl w-80 lg:w-[35vw] h-80 lg:h-[35vw] bg-[url('./assets/servicios/simg_1.png')] bg-[length:100%_100%] transition-all duration-200 hover:shadow-xl hover:shadow-gray-900" data-aos="zoom-in">
+                        <div className="py-[10%] backdrop-blur-sm bg-white/70  border-2 border-[#ffffff80] shadow-lg rounded-2xl w-80 lg:w-[35vw] h-full 2xl:h-[35vw] bg-[url('./assets/servicios/simg_1.png')] bg-[length:100%_100%] transition-all duration-200 hover:shadow-xl hover:shadow-gray-900" data-aos="zoom-in">
                             <h2 className="text-4xl  pb-8">ANIMACIONES</h2>
                             <table className="table-auto m-auto text-left text-[18px]    lg:text-2xl border-separate border-spacing-x-14 border-spacing-y-3">
                                 <tbody>

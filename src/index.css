@@ -139,3 +139,19 @@ h2 {
 #programacionimg{
   background-image: url('assets/home/img_2.webp');
 }
+
+#diseniocolor{
+  background: rgb(0,76,106);
+  background: -moz-linear-gradient(0deg, rgba(0,76,106,0.21060924369747902) 8%, rgba(6,61,82,0.6139705882352942) 43%, rgba(5,48,65,1) 100%);
+  background: -webkit-linear-gradient(0deg, rgba(0,76,106,0.21060924369747902) 8%, rgba(6,61,82,0.6139705882352942) 43%, rgba(5,48,65,1) 100%);
+  background: linear-gradient(0deg, rgba(0,76,106,0.21060924369747902) 8%, rgba(6,61,82,0.6139705882352942) 43%, rgba(5,48,65,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#004c6a",endColorstr="#053041",GradientType=1);
+}
+
+#programacioncolor{
+  background: rgb(0,76,106);
+  background: -moz-linear-gradient(180deg, rgba(0,76,106,0.21060924369747902) 26%, rgba(6,61,82,0.6139705882352942) 63%, rgba(5,48,65,1) 100%);
+  background: -webkit-linear-gradient(180deg, rgba(0,76,106,0.21060924369747902) 26%, rgba(6,61,82,0.6139705882352942) 63%, rgba(5,48,65,1) 100%);
+  background: linear-gradient(180deg, rgba(0,76,106,0.21060924369747902) 26%, rgba(6,61,82,0.6139705882352942) 63%, rgba(5,48,65,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#004c6a",endColorstr="#053041",GradientType=1);
+}
